@@ -12,8 +12,8 @@ const Slider = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First Slide</h3>
-          <p>First slide description.</p>
+          <h3>Ropa</h3>
+          <p>Descripciones</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,8 +23,8 @@ const Slider = () => {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second Slide</h3>
-          <p>Second slide description.</p>
+          <h3>Accesorios</h3>
+          <p>descripcion de accesrios</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,8 +34,8 @@ const Slider = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third Slide</h3>
-          <p>Third slide description.</p>
+          <h3>Mas accesorios</h3>
+          <p>y mas descripciones.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

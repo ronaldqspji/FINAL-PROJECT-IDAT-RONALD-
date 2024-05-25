@@ -1,0 +1,20 @@
+/* src/components/Navbar.css */
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link .bi-cart {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.badge-pill {
+  font-size: 1rem;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #dc3545; /* Puedes ajustar el color según tus necesidades */
+  color: white;
+}
