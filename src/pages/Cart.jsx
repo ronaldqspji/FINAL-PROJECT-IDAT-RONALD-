@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
+import '../Styles/Cart.css'; // Asegúrate de que la ruta sea correcta según la ubicación de tu archivo
+
 
 const Cart = () => {
   const { cart, removeFromCart } = useContext(CartContext);
@@ -14,7 +16,14 @@ const Cart = () => {
           {cart.map(product => (
             <div className="col-md-4" key={product.id}>
               <div className="card mb-4">
-                <img src={product.image} className="card-img-top" alt={product.title} />
+                <img src={product.image} className="card-img-top" alt={product.title} style={{
+                  width: '100%', 
+                  height: '300px',
+                  objectFit: 'contain',
+                  objectPosition: 'center',
+                  backgroundColor: '#f0f0f0'
+                }}
+                 />
                 <div className="card-body">
                   <h5 className="card-title">{product.title}</h5>
                   <p className="card-text">${product.price}</p>
